@@ -40,7 +40,7 @@ int main(int argc, const char * argv[]) {
     
     
     printf("The 1st element of ages before the test function is %d.\n",ages[0]);
-    test(ages);//这里数组的地址传递给了函数，所以函数内的形式参数变化也会带动实际参数变化，1变为10；
+    test(ages);//这里数组的地址传递给了函数，所以函数内的形式参数变化也会带动实际参数变化，1变为10；s
     printf("After the test function, the 1st element of array test is now %d.\n",ages[0]);
     
     return 0;
