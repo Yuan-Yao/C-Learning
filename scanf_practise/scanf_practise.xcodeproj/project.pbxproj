@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		622309A01E44D1F300887C48 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6223099F1E44D1F300887C48 /* main.c */; };
-		629F0E1C1E47AF38001BC265 /* header.c in Sources */ = {isa = PBXBuildFile; fileRef = 629F0E1B1E47AF38001BC265 /* header.c */; };
+		62E572191E55A85300DB7615 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 62E572181E55A85300DB7615 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6223099A1E44D1F300887C48 /* CopyFiles */ = {
+		62E572131E55A85300DB7615 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6223099C1E44D1F300887C48 /* c_learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = c_learning; sourceTree = BUILT_PRODUCTS_DIR; };
-		6223099F1E44D1F300887C48 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		629F0E1A1E47AE43001BC265 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
-		629F0E1B1E47AF38001BC265 /* header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = header.c; sourceTree = "<group>"; };
+		62E572151E55A85300DB7615 /* scanf_practise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = scanf_practise; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E572181E55A85300DB7615 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		622309991E44D1F300887C48 /* Frameworks */ = {
+		62E572121E55A85300DB7615 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		622309931E44D1F200887C48 = {
+		62E5720C1E55A85300DB7615 = {
 			isa = PBXGroup;
 			children = (
-				6223099E1E44D1F300887C48 /* c_learning */,
-				6223099D1E44D1F300887C48 /* Products */,
+				62E572171E55A85300DB7615 /* scanf_practise */,
+				62E572161E55A85300DB7615 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6223099D1E44D1F300887C48 /* Products */ = {
+		62E572161E55A85300DB7615 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6223099C1E44D1F300887C48 /* c_learning */,
+				62E572151E55A85300DB7615 /* scanf_practise */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6223099E1E44D1F300887C48 /* c_learning */ = {
+		62E572171E55A85300DB7615 /* scanf_practise */ = {
 			isa = PBXGroup;
 			children = (
-				6223099F1E44D1F300887C48 /* main.c */,
-				629F0E1A1E47AE43001BC265 /* header.h */,
-				629F0E1B1E47AF38001BC265 /* header.c */,
+				62E572181E55A85300DB7615 /* main.c */,
 			);
-			path = c_learning;
+			path = scanf_practise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6223099B1E44D1F300887C48 /* c_learning */ = {
+		62E572141E55A85300DB7615 /* scanf_practise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 622309A31E44D1F300887C48 /* Build configuration list for PBXNativeTarget "c_learning" */;
+			buildConfigurationList = 62E5721C1E55A85300DB7615 /* Build configuration list for PBXNativeTarget "scanf_practise" */;
 			buildPhases = (
-				622309981E44D1F300887C48 /* Sources */,
-				622309991E44D1F300887C48 /* Frameworks */,
-				6223099A1E44D1F300887C48 /* CopyFiles */,
+				62E572111E55A85300DB7615 /* Sources */,
+				62E572121E55A85300DB7615 /* Frameworks */,
+				62E572131E55A85300DB7615 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = c_learning;
-			productName = c_learning;
-			productReference = 6223099C1E44D1F300887C48 /* c_learning */;
+			name = scanf_practise;
+			productName = scanf_practise;
+			productReference = 62E572151E55A85300DB7615 /* scanf_practise */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		622309941E44D1F200887C48 /* Project object */ = {
+		62E5720D1E55A85300DB7615 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "W. Tong";
 				TargetAttributes = {
-					6223099B1E44D1F300887C48 = {
+					62E572141E55A85300DB7615 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 622309971E44D1F200887C48 /* Build configuration list for PBXProject "c_learning" */;
+			buildConfigurationList = 62E572101E55A85300DB7615 /* Build configuration list for PBXProject "scanf_practise" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 622309931E44D1F200887C48;
-			productRefGroup = 6223099D1E44D1F300887C48 /* Products */;
+			mainGroup = 62E5720C1E55A85300DB7615;
+			productRefGroup = 62E572161E55A85300DB7615 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6223099B1E44D1F300887C48 /* c_learning */,
+				62E572141E55A85300DB7615 /* scanf_practise */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		622309981E44D1F300887C48 /* Sources */ = {
+		62E572111E55A85300DB7615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				629F0E1C1E47AF38001BC265 /* header.c in Sources */,
-				622309A01E44D1F300887C48 /* main.c in Sources */,
+				62E572191E55A85300DB7615 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		622309A11E44D1F300887C48 /* Debug */ = {
+		62E5721A1E55A85300DB7615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,7 +173,7 @@
 			};
 			name = Debug;
 		};
-		622309A21E44D1F300887C48 /* Release */ = {
+		62E5721B1E55A85300DB7615 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,14 +213,14 @@
 			};
 			name = Release;
 		};
-		622309A41E44D1F300887C48 /* Debug */ = {
+		62E5721D1E55A85300DB7615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		622309A51E44D1F300887C48 /* Release */ = {
+		62E5721E1E55A85300DB7615 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -236,25 +230,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		622309971E44D1F200887C48 /* Build configuration list for PBXProject "c_learning" */ = {
+		62E572101E55A85300DB7615 /* Build configuration list for PBXProject "scanf_practise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				622309A11E44D1F300887C48 /* Debug */,
-				622309A21E44D1F300887C48 /* Release */,
+				62E5721A1E55A85300DB7615 /* Debug */,
+				62E5721B1E55A85300DB7615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		622309A31E44D1F300887C48 /* Build configuration list for PBXNativeTarget "c_learning" */ = {
+		62E5721C1E55A85300DB7615 /* Build configuration list for PBXNativeTarget "scanf_practise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				622309A41E44D1F300887C48 /* Debug */,
-				622309A51E44D1F300887C48 /* Release */,
+				62E5721D1E55A85300DB7615 /* Debug */,
+				62E5721E1E55A85300DB7615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 622309941E44D1F200887C48 /* Project object */;
+	rootObject = 62E5720D1E55A85300DB7615 /* Project object */;
 }
