@@ -15,6 +15,8 @@ int main(int argc, const char * argv[]) {
     
     char *b = &a;//a pointer b is defined, only can point to char var, b points at a.
     
+    b = &a;//这个也是正确的，b存储变量a的地址
+    
     *b = 'A';//这个*与指针定义的*不是一个意思，这里是指针运算符，代表b的值所对应的存储空间，并赋值10.
     
     printf("%c, %c\n",a, *b);//两种访问方式
